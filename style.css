@@ -1,0 +1,63 @@
+html {
+    background-color: gray;
+}
+header{
+    text-align: center;
+    background-color: gray;
+
+}
+
+body {
+    width: auto;
+    height: auto;
+    background-color:whitesmoke;
+    margin: auto;
+}
+
+#datos-personales,
+#experiencia-laboral,
+#educacion,
+#capacidades-aptitudes,
+#informacion-adicional {
+    width: auto;
+    padding: 20px;
+    background-color:#2179B0;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    clear: both;
+}
+
+.image-section img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20%;
+}
+
+.info-section {
+    margin-left: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+footer {
+    width: auto;
+    height: 50px;
+    background-color: gray;
+    clear: both;
+    text-align: center
+}
